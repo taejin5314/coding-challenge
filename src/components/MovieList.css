@@ -1,0 +1,47 @@
+.movieList {
+  width: auto;
+  position: relative;
+  transition: transform 0.2s;
+  display: flex;
+  justify-content: center;
+  margin: 20px 5px;
+}
+
+.movieList:hover {
+  transform: scale(1.05);
+}
+
+.movieList:hover .movieList-overlay {
+  opacity: 1;
+}
+
+.movieList-img {
+  width: 250px;
+}
+
+.movieList-overlay {
+  color: white;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: calc(100% - 22px);
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+  top: 0;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movieList-title {
+  overflow: scroll;
+  white-space: nowrap;
+  word-wrap: break-word;
+  max-width: 200px;
+  text-overflow: ellipsis;
+}
+
+.movieList-title::-webkit-scrollbar {
+  display: none;
+}

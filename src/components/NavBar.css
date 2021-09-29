@@ -1,0 +1,17 @@
+.navBar {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  background: #000;
+  z-index: 99;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.navBar-right {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
