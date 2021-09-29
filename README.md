@@ -20,8 +20,10 @@ You will also see any lint errors in the console.
 
 ### Home page
 
-![homepage]()
+![homepage](https://github.com/taejin5314/coding-challenge/blob/master/docs/home-page.png)
 
 ### Add to favorite
 
 ![like-button](https://github.com/taejin5314/coding-challenge/blob/master/docs/like-button.gif)
+
+Clicking heart button will add the movie to like list, and also can remove from like list.
